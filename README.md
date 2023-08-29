@@ -13,4 +13,5 @@ report.php page
 
 
 
-​
+​## Figma - link
+https://www.figma.com/file/AwDug1aHqY3gQ6lGFBrQ4i/trivial-quiz-kiril70?type=design&node-id=0%3A1&mode=design&t=boUMPt84ev1iTJPk-1
