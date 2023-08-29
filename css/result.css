@@ -1,0 +1,21 @@
+.body {
+    background-color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: #B2D732;
+    font-size: 72px;
+}
+
+.p5 {
+    text-align: center;
+    margin: auto;
+    padding: 8px;
+    width: 500px;
+}
+
+textarea {
+    background-color: goldenrod;
+    box-shadow: 5px 5px 15px 1px #59efeae6;
+}

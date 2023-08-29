@@ -1,0 +1,21 @@
+body {
+    color: white;
+}
+.container {
+    background-color: #092834;
+    box-shadow: 5px 5px 15px 6px silver;    
+    color: white;
+}
+div #questionBox {
+    background-color: #B2D732;
+    color: #FE2712;
+    box-shadow: 5px 5px 15px 1px silver;
+}
+
+a.btn-bl.btn-info {
+    background-color: #FE2712;
+    color: silver;
+    border-radius: 20;
+    border-color: #B2D732;
+    width: 5 auto;
+}

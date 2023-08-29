@@ -1,0 +1,236 @@
+
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    max-width:max-content;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.imag-quest {
+    flex: 2;
+    margin-right: 6;
+}
+
+.imag-quest img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container1 {
+    flex: 4;
+    background-color: #F0F7D4;
+    box-shadow: 5px 5px 15px 1px #000 inset;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 60px;
+    font-variant: small-caps;
+    color: #B2D732;
+    margin: 20px;
+    background-color: #FE2712;
+}
+
+section {
+    margin: 30px;
+}
+
+h2 {
+    font-size: 40px;
+    font-variant: small-caps;
+    color: #347B98;
+    margin: 15px;
+}
+
+p {
+    font-size: 24px;
+    color: #092834;
+    margin: 20px;
+}
+
+ul {
+    font-size: 24px;
+    color: #092834;
+    margin: 30px;
+}
+
+ul li {
+    margin: 10px;
+}
+
+.container2 {
+    max-width:max-content;
+} 
+
+legend {
+    background-color: #f5f5f5;
+    color: #e1bfbf;
+    padding: 5px 10px;
+}
+
+input {
+    margin: 5px;
+}
+  
+  .wrapper2 {
+    display: flex;
+    align-items: flex-end;
+    max-width:max-content;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .imag-quest img {
+    max-width: 100%;
+  }
+  
+  .container1, .container2 {
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #092834;
+    max-width: flex;
+    box-shadow: 20px 20px 35px 10px silver;
+}
+  
+  .diagonal-wrapper {
+    transform: rotate(-10deg); /* Adjust the rotation angle as needed */
+    position: relative;
+    top: -50px; /* Adjust the positioning as needed */
+  }
+  
+  .dropdown, .number-field, .submit-button {
+    margin: 10px 0;
+  }
+  
+  .dropdown-button {
+    padding: 10px 20px;
+    background-color: #FE2712;
+    color: #092834;
+    border: #FE2712;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 25px;
+  }
+  
+  .dropdown-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .number-field input {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 25px;
+  }
+  
+  
+  .submit-button button {
+    color: #000;
+    margin: 25px;
+  }
+
+  body {
+    margin: 25px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .imag-quest img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .container1, .container2 {
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .diagonal-wrapper {
+    transform: rotate(-10deg); /* Adjust the rotation angle as needed */
+    position: relative;
+    top: -150px; /* Adjust the positioning as needed */
+  }
+  
+  .dropdown, .number-field, .submit-button {
+    margin: 25px 0;
+  }
+  
+  .dropdown-button, .number-field input, .submit-button button, input.name {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #FE2712;
+  }
+  
+  @media (min-width: 768px) {
+    /* Apply styles for medium-sized screens */
+    .wrapper {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    
+    .imag-quest {
+      flex: 1;
+    }
+  
+    .container1, .container2 {
+      flex: 1;
+      margin: 10px 10px;
+    }
+    
+    .diagonal-wrapper {
+      top: 1;
+    }
+    
+    .dropdown, .number-field, .submit-button, input.name {
+      margin: 25px 25px;
+    }
+  }
+
+  
+  
+  
