@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/question.css"/>
+    <link rel="stylesheet" href="./css/question.css"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- <script src="js/main.js"></script> -->
 </head>
@@ -44,7 +44,7 @@
             if (isset($_POST["topic"])){ 
                 $topic = $_POST["topic"];
             }else{
-                $topic = 'music';
+                $topic = 'language';
             }
 
             // if no question Num, set default 5
