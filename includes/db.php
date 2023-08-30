@@ -29,4 +29,4 @@ function fetchQuestionIdSequence($topic, $questionNum, $dbConnection) {
     return $rows;
 }
 
-?>
+?> 
